@@ -1,2 +1,2 @@
-﻿# Challenge-ONE-Sprint-02---AluraGeek
+﻿# Challenge-ONE-AluraGeek
 
