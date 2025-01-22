@@ -1,0 +1,138 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-black-00);
+}
+
+.contact {   
+  background-color: var(--color-black);
+}
+
+.contact > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    padding: 64px 0px;
+    gap: 115px;
+}
+
+.contact__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 112px;
+}
+
+.contact__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.contact__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-white);    
+}
+
+.contact__link:hover {
+  filter: drop-shadow(rgba(162, 247, 232, 0.952) 0px 10px 15px);
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 560px;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .form__field {
+    gap: 0.5rem;
+  }
+  
+  .form__input {
+    padding: 1rem;
+    font-family: "Raleway", sans-serif;
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .form__input:focus {
+    outline-color: var(--color-blue-100);
+  }
+  
+  .form__btn {
+    align-self: flex-start;
+    padding: 1rem;
+    background-color: var(--color-blue-50);
+    color: var(--color-white);
+    border-radius: 4px;
+    border: solid thin transparent;
+  }
+  
+  .form__btn:hover {
+    background-color: var(--color-blue-50);
+    border: solid thin var(--color-blue-50);
+    filter: drop-shadow(rgba(162, 247, 232, 0.952) 0px 10px 15px);
+    color: var(--color-white);
+  }
+
+  .rodape {
+    background-color: var(--color-black-00);
+    padding: 1rem;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 32px 0px;
+  }
+
+  @media screen and (max-width: 768px) and (max-width: 1024px)  {
+
+    .contact > .container {
+     gap: 50px;
+    }
+
+    .contact__nav {
+      flex-direction: column;
+      gap:10px;
+    }
+
+    .contact__form {
+    width: 454px;
+    height: 310px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .contact > .container {
+      flex-direction: column; 
+      padding: 20px 0;
+    }
+
+    .contact__menu {
+      text-align: center;
+      align-items: center;
+    }
+    .contact__form {
+      width: 100%;
+      height: auto;
+  }
+  }
