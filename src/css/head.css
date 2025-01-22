@@ -1,0 +1,110 @@
+.head {
+    background-color: var(--color-white);   
+    padding: 32px 0px;
+  }
+  
+  .head .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.head__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 100%;
+}
+  
+  .head__logo-alura img {
+    transition: transform 0.3s;
+  }
+  
+  .head__logo-alura:hover {
+    transform: scale(1.1);
+  }
+  
+  .head__login {
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .head__login-link {
+    display: block;
+    padding: 0.5rem;
+    border: solid thin var(--color-blue-100);
+    color: var(--color-blue-100);
+    font-weight: 700;
+  }
+  
+  .head__login-link:hover {
+    background-color: var(--color-blue-100);
+    color: var(--color-white);
+  }
+  
+  .head__search-link {
+    color: var(--color-black);
+    font-size: 1.25rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .head__logo-alura img {
+      width: 88%;
+      padding-left: 15%;
+    }
+    
+    .head__search-icon {
+      display: none;
+    }
+
+    .head__login-link {
+      padding: 12px 26px;
+    }
+  
+    .head__search-input {
+      flex-basis: 45%;
+      background-color: var(--color-lightgray);
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      border-radius: 30px;
+    }
+  
+    .head__search-input input {
+      flex-grow: 1;
+      background-color: var(--color-lightgray);
+      border: none;
+    }
+  
+    .head__search-input input:focus {
+      outline: none;
+    }
+  
+    .head__search-input input::placeholder {
+      color: var(--color-gray);
+    }
+    .head__search-input a {
+      color: var(--color-gray);
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+  .head__menu {
+    width:30%;
+  }
+  .head__search-input-none {
+    display: none;
+  }
+
+  .head__login {
+    flex-basis: 35%;
+  }
+  .head__login-link {
+    padding: 0.7rem;
+  }
+}

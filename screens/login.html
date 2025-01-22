@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/ed2ba7d635.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Styles  -->
+    <link rel="stylesheet" href="../src/css/bases.css" />
+    <link rel="stylesheet" href="../src/css/head.css" />
+    <link rel="stylesheet" href="../src/css/login.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <title>Login Section</title>
+  </head>
+  <body>
+    <header class="head">
+      <!-- Init menu -->
+      <nav class="container">
+        <div class="head__menu">
+          <a href="../index.html" class="head__logo-alura">
+            <img src="../src/img/Logo.png" alt="Logo Alura Geek" />
+          </a>
+          <form class="head__search-input head__search-input-none">
+            <input type="text" placeholder="¿Qué deseas buscar?" />
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </form>
+        </div>
+        <div class="head__search-icon">
+          <a href="#" class="head__search-link">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- Finish menu -->
+    </header>
+    <!-- Init Login -->
+    <main class="main">
+      <form class="main__form" data-form>
+        <h3 class="main__title">Iniciar Sesión</h3>
+        <div class="main__field">
+          <input
+            class="main__input"
+            id="nombre"
+            type="text"
+            placeholder="Escriba su correo electrónico"
+            required
+            maxlength="40"
+            data-email-login
+          />
+        </div>
+        <div class="main__field">
+          <input
+            class="main__input"
+            name="password"
+            id="password"
+            class="input"
+            type="password"
+            placeholder="Contraseña"
+            required
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+            title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+            data-tipo="password"
+            data-password-login
+          />
+        </div>
+        <p class="message-error">Error</p>
+        <a href="#" class="main__btn" data-login>Entrar</a>
+      </form>
+    </main>
+    <!-- finish Login -->
+    <!-- Init Footer -->
+    <footer class="footer">
+      <!-- Init Section Contact-->
+      <section class="contact">
+        <div class="container">
+          <div class="contact__nav">
+            <div class="contact__logo-alura">
+              <img src="../src/img/Logo.png" alt="Logo Alura Geek" />
+            </div>
+            <nav class="contact__menu">
+              <a href="#" class="contact__link">Quienes somos</a>
+              <a href="#" class="contact__link">Politica de privacidad</a>
+              <a href="#" class="contact__link">Programa de afiliados</a>
+              <a href="#" class="contact__link">Nuestras tiendas</a>
+              <a href="#" class="contact__link">Quiero ser franquiciado</a>
+              <a href="#" class="contact__link">Anuncie aqui</a>
+            </nav>
+          </div>
+          <form class="contact__form" data-form>
+            <h3 class="form__title">Hable con nosotros</h3>
+            <div class="form__field">
+              <input
+                class="form__input"
+                id="email"
+                type="email"
+                placeholder="Email"
+                required
+                maxlength="40"
+                data-email
+              />
+            </div>
+            <div class="form__field">
+              <textarea
+                class="form__input"
+                name="message"
+                id="message"
+                cols="30"
+                rows="4"
+                placeholder="Escribe tu mensaje y datos de contacto"
+                required
+                maxlength="120"
+                data-message
+              ></textarea>
+            </div>
+            <p class="mns-incorrect">Rellena todos los campos correctamente</p>
+            <a href="#" class="form__btn" data-submit type="submit"
+              >Enviar Mensaje</a
+            >
+          </form>
+        </div>
+      </section>
+      <!-- Finish Section Contact-->
+      <div class="rodape" style="padding: 32px 0px; margin: 0">
+        Desarollado por Lizbeth Grisales <br />&copy; 2023
+      </div>
+    </footer>
+    <!-- Finish Footer -->
+    <!-- Init Scripts -->
+    <script
+      src="../controllers/validation_form.controller.js"
+      type="module"
+    ></script>
+    <script src="../controllers/login.controller.js" type="module"></script>
+    <!-- type module para poder trabajar con los imports y exports -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

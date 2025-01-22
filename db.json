@@ -1,0 +1,189 @@
+{
+  "products": [
+    {
+      "imageUrl": "https://i.ibb.co/3FbG5bj/unsplash-1-VV1-MRafd7-A.png",
+      "name": "Producto XYZ ",
+      "price": "60.0",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111111
+    },
+    {
+      "imageUrl": "https://i.ibb.co/9ZqkTJm/unsplash-6-FDXGY9-J6y4.png",
+      "name": "Producto XYZ ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111112
+    },
+    {
+      "imageUrl": "https://i.ibb.co/C290L1Q/unsplash-ep-RFE-h-BNjo.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111113
+    },
+    {
+      "imageUrl": "https://i.ibb.co/pnn07Rq/unsplash-Ke-GTo-DVN0l4.png",
+      "name": "Producto XYZ",
+      "price": "90.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111114
+    },
+    {
+      "imageUrl": "https://i.ibb.co/SQZZ9qS/unsplash-R8-L1l9-RN198.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111115
+    },
+    {
+      "imageUrl": "https://i.ibb.co/J5DL6Gv/unsplash-4-OHk-K555s1-A.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111116
+    },
+    {
+      "imageUrl": "https://i.ibb.co/r3Y27NR/unsplash-0-POw-K6i-Ai-RQ.png",
+      "name": "Consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111117
+    },
+    {
+      "imageUrl": "https://i.ibb.co/3zYH1F1/unsplash-ca-Nzzoxls8-Q.png",
+      "name": "Consola XY",
+      "price": 6,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111118
+    },
+    {
+      "imageUrl": "https://i.ibb.co/sRsTPgC/unsplash-k-x-Yh-I3-g-JM.png",
+      "name": "Consola XY",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111119
+    },
+    {
+      "imageUrl": "https://i.ibb.co/n34VVHs/unsplash-wa5z9o9fgjw.png",
+      "name": "Consola XY",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111110
+    },
+    {
+      "imageUrl": "https://i.ibb.co/jT99k40/unsplash-Zjn4d-T993-g.png",
+      "name": "Consola X",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111120
+    },
+    {
+      "imageUrl": "https://i.ibb.co/BVHLcLc/unsplash-ZV7lnfy-QLm-A.png",
+      "name": "Consola X",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111121
+    },
+    {
+      "imageUrl": "https://i.ibb.co/y6sYBw1/unsplash-b-Uga-Ia-Zys-H0.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111122
+    },
+    {
+      "imageUrl": "https://i.ibb.co/gmCt2QC/unsplash-f-MP-o-Cze3-AY.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111123
+    },
+    {
+      "imageUrl": "https://i.ibb.co/5nn5tQZ/unsplash-j-MT6-Brg-Bu-XU.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111124
+    },
+    {
+      "imageUrl": "https://i.ibb.co/xYBNN30/unsplash-Mx-Vk-WPi-JALs.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111125
+    },
+    {
+      "imageUrl": "https://i.ibb.co/fx28d8T/unsplash-r27um-XAel-Dc.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo provident odit debitis. Necessitatibus sapiente cupiditate minima doloremque culpa veritatis recusandae adipisci a aperiam nesciunt, magni quod labore dolor officiis mollitia!",
+      "id": 1111126
+    },
+    {
+      "imageUrl": "https://i.ibb.co/GWn3rBw/unsplash-s-YVY-ZKwax-U.png",
+      "name": "Control y consola XYZ",
+      "price": "60.00",
+      "description": "Control y consola XYZ",
+      "id": "1111127"
+    }
+  ],
+  "login": [
+    {
+      "email": "correo@alura.com",
+      "password": "alura123",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "email": "lizgricas@gmail.com",
+      "mns": "Gracias por contactarme",
+      "id": 1
+    },
+    {
+      "email": "lgrisales08@misena.edu.co",
+      "mns": "hola ustedes realizan impresiones de productos personalizados?\n\nWPS: 3008333775",
+      "id": "739b5eb2-9124-402f-bda9-30fe6a58dcf3"
+    },
+    {
+      "email": "lizgricas@gmail.comli",
+      "mns": "dmdm",
+      "id": "444def44-e8b0-4dc4-b32d-8696482df38d"
+    },
+    {
+      "email": "lizgricas@gmail.comli",
+      "mns": "lsl",
+      "id": "cb1a4492-5ba3-4ee0-b7f8-23605b6cde59"
+    },
+    {
+      "email": "kos",
+      "mns": "dkdpd",
+      "id": "0ab9f5c1-9c46-40fe-b9e3-b9028424f958"
+    },
+    {
+      "email": "lizgricas@gmail.comli",
+      "mns": "kdodk",
+      "id": "6b18367b-1e16-461c-9086-3aca3a6b60cc"
+    },
+    {
+      "email": "lizgricas@gmail.comli",
+      "mns": "lmsñs",
+      "id": "c1806365-e944-457a-9dfc-a34248ddf888"
+    },
+    {
+      "email": "lgrisales08@soy.sena.edu.co",
+      "mns": "hola ustedes realizan impresiones de productos personalizados?WPS: 3008333775",
+      "id": "d8311b9e-c4de-480a-9fb4-af5256378615"
+    },
+    {
+      "email": "lgrisales08@misena.edu.co",
+      "mns": "djddjd",
+      "id": "66254346-b402-4fb6-99fd-dd0854a7a56e"
+    },
+    {
+      "email": "lizgricas@gmail.com",
+      "mns": "hola porfa contactarme al 3008333979",
+      "id": "01a48b84-63a5-4b11-b642-9c6518fa1bcd"
+    }
+  ]
+}
